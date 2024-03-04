@@ -45,15 +45,16 @@ body{
 }
 .flex-container--2{
     display: flex;
-    flex-direction: column;
-    gap:0px;
+    gap:33px;
     padding-left: 10px;
     padding-top: 12px;  
 }
 .image-yahoo{
     width: 79px;
     height: 30px;
-    
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
     background-color: white;
 }
 .img-doot{
@@ -84,7 +85,7 @@ span{
     display: flex;
     flex-direction: row;
     padding-top: 6px;
-    padding-left: 18px;
+    padding-left: 20px;
 }
 .img-fuuul{
     width: 20px;
@@ -93,15 +94,13 @@ span{
     padding-left: 92px;   
 }
 .border{
-    border-bottom: 1.6px solid;
+    border-bottom: 1.8px solid;
     border-color:#DDDDDD;
-    inline-size: 336px;
-    margin-left: 27px;
-    padding-top: 9px;
-    
+    inline-size: 342px;
+    margin-left: 22px;
+    padding-top: 9px;  
 }
 .hs{
-display: flex;
 flex-direction: row; /* Arrange whiteboards horizontally */
 padding-left: 0px;
 gap:0px; 
@@ -117,20 +116,16 @@ gap:0px;
     font-size: 19px;
     font-family:"open sans, sans serif" ;
 }
-.head-column{  
-padding-left:10px;
-display:flex;
-flex-direction: row;
-gap:0px;
-}
 .grief{
-width:334px;
-display: flex;
+width:229px;
 flex-direction: row;
 padding-left: 10px;
 padding-top: 0px;
-line-height: 1;  
+line-height: 1.3;  
 gap:20px;
+}
+.nd-image{
+flex-direction: row;
 }
 .img-fuuu{
     float:right;

@@ -54,7 +54,7 @@ body{
     width: 79px;
     height: 30px;
     flex-direction: row;
-    background-color: transparent;
+    background-color: white;
 }
 .img-doot{
     width: 3px;
@@ -124,7 +124,7 @@ flex-direction: row;
 gap:0px;
 }
 .grief{
-white-space: pre;
+width:334px;
 display: flex;
 flex-direction: row;
 padding-left: 10px;

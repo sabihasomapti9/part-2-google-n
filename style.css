@@ -284,4 +284,5 @@ display: flex;
 }
 .wh{
     display: flex;
+    flex-direction: row;
 }

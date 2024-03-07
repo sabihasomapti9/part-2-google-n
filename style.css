@@ -157,6 +157,15 @@ gap:20px;
         line-height: 1.3;  
         gap:1px;
 }       
+.grief-h{
+    width:230px;
+        display: flex;
+        flex-direction: row;
+        padding-left: 10px;
+        padding-top: 7px;
+        line-height: 1.3;  
+        gap:1px;
+}       
 .nd-image{
 flex-direction: row;
 }
@@ -339,6 +348,20 @@ flex-direction: row;
     display: flex;
     flex-direction: row;
     gap:199px;
+    padding-top: 9px;
+    padding-left: 18px;
+}
+.sp-p{
+    display: flex;
+    flex-direction: row;
+    gap:209px;
+    padding-top: 9px;
+    padding-left: 18px;
+}
+.sp-n{
+    display: flex;
+    flex-direction: row;
+    gap:220px;
     padding-top: 9px;
     padding-left: 18px;
 }

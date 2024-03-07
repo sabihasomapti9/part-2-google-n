@@ -107,7 +107,7 @@ gap:0px;
 }
 .container {
     display: flex;
-    flex-direction: column; /* Arrange whiteboards horizontally */
+    flex-direction: row; /* Arrange whiteboards horizontally */
     padding-left: 32px;
     gap:14px;
 }
@@ -280,9 +280,5 @@ flex-direction: row;
 }
 .column-con{
 display: flex;
-    flex-direction: column;
-}
-.wh{
-    display: flex;
-    flex-direction: row;
+flex-direction:column;
 }
